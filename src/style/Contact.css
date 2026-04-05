@@ -1,0 +1,24 @@
+
+
+div > .contactform{
+    border: none;
+   -webkit-box-shadow: inset 3px 0px 10px 5px #07252b; 
+box-shadow: inset 3px 0px 15px 10px #011417;
+    /* animation-name: shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    
+
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 0 0 10px #1a128a, 0 0 20px #0541ba;
+    }
+    50% {
+        box-shadow: 0 0 20px #3657c2, 0 0 40px #076edc;
+    }
+    100% {
+        box-shadow: 0 0 10px #2605e3, 0 0 20px #380481;
+    }
+}

@@ -1,0 +1,137 @@
+
+/* ── Reset ─────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden; /* remove unwanted scroll */
+}
+
+/* ── Hero Container ─────────────────────────── */
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* ── Inner Row ──────────────────────────────── */
+.hero-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 3rem;
+  gap: 3rem;
+}
+
+/* ── Left Content ───────────────────────────── */
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-highlight {
+  color: #00bcd4;
+}
+
+.hero-quote {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  color: #cfd8dc;
+  max-width: 480px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-outline {
+  padding: 0.6rem 2rem;
+  border: 1.5px solid #00bcd4;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s;
+}
+
+.btn-outline:hover {
+  background: #00bcd4;
+  color: #0f0f1a;
+}
+
+/* ── Right Image ────────────────────────────── */
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* ── Responsive ─────────────────────────────── */
+@media (max-width: 768px) {
+  html, body, #root {
+    overflow: auto; /* allow scroll on small screens */
+  }
+
+  .hero-container {
+    height: auto;
+    min-height: 100vh;
+    padding: 4rem 0;
+  }
+
+  .hero-row {
+    flex-direction: column-reverse;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  .hero-left {
+    align-items: center;
+  }
+
+  .hero-quote {
+    text-align: center;
+  }
+
+  .hero-img {
+    max-width: 260px;
+  }
+}

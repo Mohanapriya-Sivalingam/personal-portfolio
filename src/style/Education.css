@@ -1,0 +1,57 @@
+
+.edu-timeline {
+  position: relative;
+  margin-left: 30px;
+}
+
+/* vertical line */
+.edu-timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #0dcaf0; /* bg-info */
+}
+
+/* each item */
+.edu-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 60px;
+}
+
+/* icon */
+.edu-icon {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #0dcaf0;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #0dcaf0, 0 0 20px #0dcaf0;
+  z-index: 1;
+  font-size: 14px;
+}
+
+/* card */
+.edu-card {
+  background: linear-gradient(145deg, #1a1a1a, #000000);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 3px solid #0dcaf0;
+  box-shadow: 0 0 10px rgba(13, 202, 240, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* hover effect */
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #0dcaf0;
+}

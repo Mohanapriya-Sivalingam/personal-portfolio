@@ -1,0 +1,59 @@
+
+div > .mybtn:hover{
+  
+    background: linear-gradient(to right,#0dcaf0,#140016);
+    color: white;
+    font-size: large;
+    transition: font-size 0.2s ease-in-out;
+    box-shadow: 0 0 20px #35c9e7;
+   
+}
+
+div > .mycard{
+    border: 1px solid #0dcaf0; 
+    box-shadow: 0 0 10px #0dcaf0, 0 0 10px #0dcaf0;
+
+    
+}
+div > .mycard:hover{
+    border: 1px solid #d5119b;
+    box-shadow: 0 0 20px #d5119b;
+    transition: box-shadow 0.3s ease-in-out;
+    background: linear-gradient(to right,#140016,#5c1052);
+   
+}
+
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+.custom-modal-content {
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 0 0 25px #0dcaf0;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
