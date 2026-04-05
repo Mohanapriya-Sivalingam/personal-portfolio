@@ -1,8 +1,8 @@
-import React from 'react'
+
 import experience from "../data/experience";
 import "../style/Experience.css";
 import { GiTeacher } from 'react-icons/gi';
-import { RiComputerFill } from 'react-icons/ri';
+
 
 
 
