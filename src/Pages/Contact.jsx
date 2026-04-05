@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
     
-    <section id="contact">
+    <section id="contact" className="contact-section">
 
       <div className="container-fluid w-75 py-5 mx-auto">
         <h2 className="text-info mb-3 text-center text-decoration-underline">Contact Me</h2>

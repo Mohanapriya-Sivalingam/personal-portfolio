@@ -143,3 +143,16 @@ div > .myNav:hover{
     background-position: 200% center;
   }
 }
+
+.active-nav {
+  color: #ffc107 !important;
+  border-bottom: 2px solid #0dcaf0;
+}
+
+.home-section{
+  min-height: 100vh;
+  background: radial-gradient(125% 125% at 50% 10%, #000000 40%, #033c68 100%);
+   scroll-margin-top: 70px;
+  
+  
+}

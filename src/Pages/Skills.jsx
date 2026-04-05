@@ -7,7 +7,7 @@ import "../style/skills.css";
 function Skills() {
   return (
     <>
-    <section id="skills">
+    <section id="skills"  className="skills-section">
 <div className="container mt-5">
       <h2 className="text-center text-info mb-3 text-decoration-underline">My Skills</h2>
       <p className="text-center text-warning fs-5 fst-italic mb-5">

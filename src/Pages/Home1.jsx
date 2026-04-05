@@ -5,22 +5,22 @@ import { CiInstagram } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
 import HeroImg from "../assets/images/Hero.png";
 import { TypeAnimation } from 'react-type-animation';
-import { useNavigate } from "react-router-dom";
+
 
 
 function Home1() {
-  const navigate = useNavigate();
+  
   return (
     <>
 
-    <section id="home">
-<div className="container-fluid d-flex align-items-center row hero-container">
+    <section id="home" className="home-section">
+<div className="container-fluid d-flex align-items-center row hero-container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
 
           <div className="row w-100 m-0">
 
         <div className="col-md-6 d-flex flex-column justify-content-center text-white px-5">
           <h5>Hi 👋 I'm </h5>
-<h1 className="h1">Mohanapriya <span className="text-info">Sivalingam</span></h1>
+<h1 className="h1" >Mohanapriya <span className="text-info"  >Sivalingam</span></h1>
 <h3 className="text-center mt-2 gradient-text"> - <TypeAnimation
     sequence={[
       "Java Full Stack Developer", 2000,
@@ -39,7 +39,7 @@ function Home1() {
           </p>
 <div className="ms-5 p-1">
             <button className="btn btn-outline-info text-white text-center p-2 opacity-1 me-3 px-4 homebtn">Resume</button>
-            <button className="btn btn-outline-info px-4 text-white p-2 homebtn" onClick={() => navigate('/contact')}>Contact</button>
+            <button className="btn btn-outline-info px-4 text-white p-2 homebtn" onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>Contact</button>
           </div>
 <div className="d-flex align-items-center justify-content-end mt-4 gap-4 fs-3">
   <ul className="d-flex list-unstyled gap-4 social-icons fs-1">
