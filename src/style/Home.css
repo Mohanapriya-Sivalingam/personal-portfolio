@@ -154,6 +154,7 @@ div > .myNav:hover{
 }
 
 .menu-icon {
+  display: none;
   cursor: pointer;
 }
 
@@ -165,6 +166,13 @@ div > .myNav:hover{
 
 /* 📱 MOBILE VIEW */
 @media (max-width: 992px) {
+
+  .menu-icon{
+    display: block;
+    color: #0dcaf0;
+    font-size: 1.5rem;
+
+  }
 
   .nav-container {
     position: absolute;
@@ -181,6 +189,7 @@ div > .myNav:hover{
   .nav-container a {
     display: block;
     margin: 15px 0;
+    
   }
 
   .nav-container.show-menu {
