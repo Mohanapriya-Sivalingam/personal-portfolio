@@ -21,7 +21,7 @@ function Home1() {
         <div className="col-md-6 d-flex flex-column justify-content-center text-white px-5">
           <h5>Hi 👋 I'm </h5>
 <h1 className="h1" >Mohanapriya <span className="text-info"  >Sivalingam</span></h1>
-<h3 className="text-center mt-2 gradient-text"> - <TypeAnimation
+<h3 className="text-center mt-2 gradient-text animehead"> - <TypeAnimation
     sequence={[
       "Java Full Stack Developer", 2000,
       "Backend Developer", 2000,
