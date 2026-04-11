@@ -2,7 +2,7 @@
 .contact-section{
     min-height: 100vh;
     background: radial-gradient(125% 125% at 50% 10%, #000000 40%, #033c68 100%);
-     scroll-margin-top: 60px;
+     scroll-margin-top: 20px;
  
     
 }

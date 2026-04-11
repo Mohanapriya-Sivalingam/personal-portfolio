@@ -1,12 +1,4 @@
 
-// import ecommerce from "../images/ecommerce.png"
-// import employee from "../images/employee.png"
-// import movieticket from "../images/movieticket.png"
-// import portfolio from "../images/portfolio.png"
-// import student from "../images/student.png"
-// import todolist from "../images/todolist.png"
-// import formvalidation from"../images/formvalidation.png"
-// import login from "../images/login.png"
 
 import ecommerce from "../assets/images/ecommerce.png"
 import employee from "../assets/images/employee.png"
@@ -16,6 +8,7 @@ import student from "../assets/images/student.png"
 import todolist from "../assets/images/todolist.png"
 import formvalidation from "../assets/images/formvalidation.png"
 import login from "../assets/images/login.png"  
+import pytodo from "../assets/images/pythontodo.png"
 
 const projects = [
   {
@@ -71,7 +64,7 @@ const projects = [
     title:"Python To-Do List Application",
     description: "A simple console-based to-do list application built with Python, allowing users to add, edit, and delete tasks. The application features a command-line interface, making it easy to manage daily tasks and improve productivity. Users can easily organize their tasks and keep track of their progress with this efficient and user-friendly to-do list application.",
     github: "https://github.com/Mohanapriya-Sivalingam/python-todo-list",
-    image: todolist
+    image: pytodo
   }
 ];
 

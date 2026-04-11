@@ -38,7 +38,9 @@ function Home1() {
             Now, I'm blending both to build something meaningful."
           </p>
 <div className="ms-5 p-1">
-            <button className="btn btn-outline-info text-white text-center p-2 opacity-1 me-3 px-4 homebtn">Resume</button>
+            <button className="btn btn-outline-info text-white text-center p-2 opacity-1 me-3 px-4 homebtn" onClick={() => {
+    window.open("/Mohanapriya_Resume.pdf", "_blank");
+  }}>Resume</button>
             <button className="btn btn-outline-info px-4 text-white p-2 homebtn" onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>Contact</button>
           </div>
 <div className="d-flex align-items-center justify-content-end mt-4 gap-4 fs-3">

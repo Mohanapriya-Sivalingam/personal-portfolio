@@ -45,8 +45,8 @@ axios.post('http://localhost:8080/api/contactms/sendmessage', contact)
     <section id="contact" className="contact-section">
 
       <div className="container-fluid w-75 py-5 mx-auto contact-container">
-        <h2 className="text-info mb-3 text-center text-decoration-underline">Contact Me</h2>
-        <p className="text-warning fst-italic shadow-lg ms-5 mb-5 fs-5 contact-para"> " I am always open to new opportunities and collaborations. Feel free to reach out to me through the contact form below or connect with me on LinkedIn."</p>
+        <h2 className="text-info mb-2 mt-0 text-center text-decoration-underline">Contact Me</h2>
+        <p className="text-warning fst-italic shadow-lg ms-5 fs-5 contact-para"> " I am always open to new opportunities and collaborations. Feel free to reach out to me through the contact form below or connect with me on LinkedIn."</p>
         <div className="row justify-content-center">
           <div className="col-md-6">
             <form className='form p-5 rounded-5 bg-info contactform' onSubmit={handleSubmit}>
@@ -63,7 +63,7 @@ axios.post('http://localhost:8080/api/contactms/sendmessage', contact)
               </div>
               <div className="form-group">
                 <label htmlFor="message" className='form-label mb-2 text-black fs-5 fst-italic '>Message : {error.message && <small className="fs-6 text-danger mt-2 mb-2">{error.message}</small>}</label>
-                <textarea className="form-control mb-3 bg-dark text-white text-italic fs-6 opacity-100 ps-3 rounded-5" id="message" rows="5" value={contact.message} onChange={(e) => {setContact({...contact, message: e.target.value.trim()}); setError({...error, message:""})}} placeholder="Your Message"></textarea>
+                <textarea className="form-control mb-3 bg-dark text-white text-italic fs-6 opacity-100 ps-3 rounded-5" id="message" rows="5" value={contact.message} onChange={(e) => {setContact({...contact, message: e.target.value}); setError({...error, message:""})}} placeholder="Your Message"></textarea>
                 
               </div>
               <button type="submit" className="btn btn-light w-100 rounded-5 shadow-lg mt-3 fs-6 text-shadow hover">Send Message</button>

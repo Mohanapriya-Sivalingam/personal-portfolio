@@ -23,7 +23,12 @@ function Home() {
           </p>
 
           <div>
-            <button className="btn btn-outline-info text-white text-center p-2 opacity-1 me-3 px-4">Resume</button>
+            <button className="btn btn-outline-info text-white text-center p-2 opacity-1 me-3 px-4" onClick={()=> {const link = document.createElement("a");
+              link.href="/Mohanapriya_Sivalingam_Resume.pdf";
+              link.download="Mohanapriya.pdf";
+              link.click()
+
+            }}>Resume</button>
             <button className="btn btn-outline-info px-4 text-white p-2 ">Contact</button>
           </div>
         </div>
