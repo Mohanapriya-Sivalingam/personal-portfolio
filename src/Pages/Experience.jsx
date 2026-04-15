@@ -12,7 +12,8 @@ function Experience() {
     <section id="experience" className="experience-section">
     <div className="container-fluid w-75 mt-3">
   <h2 className="text-info mb-3 text-center text-decoration-underline">Experience</h2>
-        <p className="text-warning fst-italic shadow-lg ms-5 mb-5 fs-5">"Though my journey into software development is just beginning, my background in teaching, self-learning, and hands-on practice has shaped me into a curious and committed developer-in-progress."</p>
+        <p className="text-warning fst-italic shadow-lg ms-5 mb-5 fs-5">
+           "Though my journey into software development is just beginning, my background in teaching, self-learning, and hands-on practice has shaped me into a curious and committed developer-in-progress."</p>
 
       {
         
