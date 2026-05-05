@@ -1,16 +1,115 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌐 Personal Portfolio Website
 
-Currently, two official plugins are available:
+A modern, responsive **Personal Portfolio Website** built using **React.js** for the frontend and **Spring Boot** for the backend. This project showcases my professional profile, skills, and projects, along with a fully functional **contact form integrated with email notifications via Gmail**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎯 Frontend (React.js)
 
-## Expanding the ESLint configuration
+* Clean and responsive UI
+* Smooth navigation with tabs:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * 🏠 Home
+  * 🎓 Education
+  * 💼 Experience
+  * 🛠 Skills
+  * 📂 Projects
+  * 📬 Contact
+* Dynamic content rendering
+* User-friendly design with modern styling
+
+### ⚙️ Backend (Spring Boot)
+
+* REST API for handling contact form submissions
+* Secure backend architecture
+* Integration with Gmail SMTP for email notifications
+
+### 📧 Contact Form Functionality
+
+* Users can send messages directly from the portfolio
+* Backend processes the request and sends email to your Gmail
+* Real-time communication capability
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+
+* React.js
+* HTML5, CSS3, JavaScript
+* Bootstrap
+
+**Backend:**
+
+* Spring Boot
+* Java
+* REST APIs
+
+**Email Integration:**
+
+* Gmail SMTP (Spring Boot Mail Sender)
+
+---
+
+## 🚀 Getting Started
+
+### 📌 Prerequisites
+
+* Node.js & npm
+* Java (JDK 17+ recommended)
+* Maven
+* Gmail account (for email integration)
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio-website/
+│
+├── frontend/        # React application
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+│
+├── backend/         # Spring Boot application
+│   ├── controller/
+│   ├── service/
+│   ├── model/
+│   └── config/
+│
+└── README.md
+```
+
+---
+
+## 🌟 Highlights
+
+* Full-stack project (React + Spring Boot)
+* Real-world contact form with email integration
+* Clean UI/UX design
+* Beginner-friendly architecture with scalable structure
+
+---
+
+## 📬 Contact
+
+If you’d like to connect or collaborate:
+
+* 📧 Email: mohanapriyasivalingam@gmail.com
+* 💼 LinkedIn: https://www.linkedin.com/in/mohanapriya-sivalingam
+* 🌐 Portfolio: 
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
+
+> Built with ❤️ using React.js and Spring Boot
