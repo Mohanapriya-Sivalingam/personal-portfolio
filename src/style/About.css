@@ -2,7 +2,7 @@
 .aboutdiv{
     
     color: #ccd6f6;
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     /* box-shadow: inset 0 0 100px #0a192f; */
     box-shadow: 0 0 100px #68187a;
     animation: shadowPulse 3s ease-in-out infinite;

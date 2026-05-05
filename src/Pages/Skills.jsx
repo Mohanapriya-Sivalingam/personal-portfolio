@@ -10,7 +10,7 @@ function Skills() {
     <section id="skills"  className="skills-section">
 <div className="container mt-5">
       <h2 className="text-center text-info mb-3 text-decoration-underline">My Skills</h2>
-      <p className="text-center text-warning fs-5 fst-italic mb-5">
+      <p className="text-center text-warning fs-6 fst-italic mb-5">
   "From learning concepts to building real-world applications — these are the skills behind my journey."
 </p>
 

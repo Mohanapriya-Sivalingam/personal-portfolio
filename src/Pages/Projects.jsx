@@ -12,7 +12,7 @@ function Projects() {
     <section id="projects" className="projects-section">
  <div className="container-fluid mt-5 mx-auto w-75 mycardcontainer">
       <h2 className="text-center text-info mb-4 text-decoration-underline">Projects</h2>
-      <p className="text-center text-warning mb-4 fs-5 fst-italic">“Each project is a step forward — from learning to building real-world solutions”</p>
+      <p className="text-center text-warning mb-4 fs-6 fst-italic">“Each project is a step forward — from learning to building real-world solutions”</p>
 
       <div className="row p-2 g-4">
         {projects.map((proj, index) => (

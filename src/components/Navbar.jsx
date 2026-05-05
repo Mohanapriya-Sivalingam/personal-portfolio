@@ -43,7 +43,7 @@ function Navbar(){
 
 
 
-      <div className={`collapse navbar-collapse justify-content-end ${isMobile ? "show" : ""}`}>
+      <div className={`collapse navbar-collapse justify-content-end border-info mb-1 mt-1 ${isMobile ? "show" : ""}`}>
 
         {["home","about","education","experience","skills","projects","contact"].map((item) => (
           <a
@@ -54,7 +54,7 @@ function Navbar(){
               active === item ? "active-nav" : "text-info"
             }`}
           >
-            {item.charAt(0).toUpperCase() + item.slice(1)}
+          {item.charAt(0).toUpperCase() + item.slice(1)}
           </a>
         ))}
       </div>

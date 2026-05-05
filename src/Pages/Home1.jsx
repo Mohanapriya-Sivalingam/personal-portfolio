@@ -21,7 +21,7 @@ function Home1() {
         <div className="col-md-6 d-flex flex-column justify-content-center text-white px-5">
           <h5>Hi 👋 I'm </h5>
 <h1 className="h1" >Mohanapriya <span className="text-info"  >Sivalingam</span></h1>
-<h3 className="text-center mt-2 gradient-text animehead"> - <TypeAnimation
+<h5 className="text-center mt-2 gradient-text animehead"> - <TypeAnimation
     sequence={[
       "Java Full Stack Developer", 2000,
       "Backend Developer", 2000,
@@ -32,8 +32,8 @@ function Home1() {
     ]}
     speed={50}
     repeat={Infinity}
-  /></h3>
-<p className="mt-3 mb-5 fs-5 homepara">
+  /></h5>
+<p className="mt-3 mb-3 fs-6 homepara">
             "Teaching taught me how to explain. Coding taught me how to create.
             Now, I'm blending both to build something meaningful."
           </p>
