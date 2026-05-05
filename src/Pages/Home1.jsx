@@ -39,7 +39,7 @@ function Home1() {
           </p>
 <div className="ms-5 p-1">
             <button className="btn btn-outline-info text-white text-center p-2 opacity-1 me-3 px-4 homebtn" onClick={() => {
-    window.open("/Mohanapriya_Resume.pdf", "_blank");
+    window.open("/Mohanapriya_Sivalingam_Resume.pdf", "_blank");
   }}>Resume</button>
             <button className="btn btn-outline-info px-4 text-white p-2 homebtn" onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>Contact</button>
           </div>
