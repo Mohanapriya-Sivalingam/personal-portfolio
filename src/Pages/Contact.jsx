@@ -16,8 +16,8 @@ function Contact() {
 
 function handleSubmit(e) {
   e.preventDefault();
-  console.log(contact)
-axios.post('https://personal-portfolio-backend-laae.onrender.com/api/contactms/sendmessage', contact)
+  
+axios.post('https://personal-portfolio-backend.railway.internal/api/contactms/sendmessage', contact)
 .then(response => {  console.log(response.data);
   alert("Message sent successfully!");  
   setContact({
