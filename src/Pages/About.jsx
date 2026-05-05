@@ -6,13 +6,13 @@ function About() {
     <>
     <section id='about' className='about-section'>
         
-            <div className="container-fluid w-75 mt-5 mb-5 p-4 opacity-100 rounded-5 aboutdiv">
-      <h2 className="text-info text-center text-decoration-underline mb-3">About Me</h2>
-      <p className='lead text-light fst-italic text-center'>🚀 From Teaching to Tech: My Journey So Far ❤️</p>
+            <div className="container-fluid w-75 mt-5 mb-5 opacity-100 rounded-5 aboutdiv">
+      <h2 className="text-info text-center text-decoration-underline mb-3 mt-5">About Me</h2>
+      <p className='lead text-light fst-italic text-center fs-6'>🚀 From Teaching to Tech: My Journey So Far ❤️</p>
    
     <div className="container w-75 mb-5">
-            <h2 className='h2 text-warning fw-bold text-center'> 🖥️ Fullstack Developer</h2>
-            <p className="fst-italic py-3 text-light hover-effect aboutpara text-indent">
+            <h3 className='h2 text-warning fw-bold text-center'> 🖥️ Fullstack Developer</h3>
+            <p className="fst-italic py-1 text-light hover-effect aboutpara text-indent fs-6">
               I'm a passionate and self-motivated aspiring Full Stack Java Developer with a strong academic foundation in Computer Science. I hold an M.Phil. in Computer Science and have one year of experience as an Assistant Professor (2015-2016), where I enjoyed teaching and guiding students in programming concepts.
             </p>
             <p className="fst-italic py-3 text-info hover-effect aboutpara text-indent">

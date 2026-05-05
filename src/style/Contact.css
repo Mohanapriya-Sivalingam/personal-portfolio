@@ -10,7 +10,7 @@
 div > .contactform{
     border: none;
    -webkit-box-shadow: inset 3px 0px 10px 5px #07252b; 
-box-shadow: inset 3px 0px 15px 10px #011417;
+box-shadow: inset 1px 0px 10px 0px #011417;
     /* animation-name: shadow;
     animation-duration: 2s;
     animation-iteration-count: infinite; */

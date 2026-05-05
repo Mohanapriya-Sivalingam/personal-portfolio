@@ -9,7 +9,7 @@ function Education() {
     <section id="education" className="education-section">
 <div className="container py-5 mx-auto">
       <h2 className="text-info mb-3 text-center text-decoration-underline">Education</h2>
-      <p className="text-warning shadow-lg ms-5 mb-5 fs-5 fst-italic">"I believe that education is a powerful tool for personal and professional growth, and I am committed to lifelong learning." </p>
+      <p className="text-warning shadow-lg ms-5 mb-5 fs-6 fst-italic">"I believe that education is a powerful tool for personal and professional growth, and I am committed to lifelong learning." </p>
 
       <div className="edu-timeline ms-5">
         {education.map((edu, index) => (
