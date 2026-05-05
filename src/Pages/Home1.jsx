@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
-import HeroImg from "../assets/images/Hero.png";
+import HeroImg from "../assets/images/Hero1.jpeg";
 import { TypeAnimation } from 'react-type-animation';
 
 

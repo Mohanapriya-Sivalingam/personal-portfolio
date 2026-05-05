@@ -10,11 +10,21 @@
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(13, 202, 240, 0.2);
     transition: transform 0.3s ease;  
-     border-left: 4px solid #0dcaf0;
-    border-right: 4px solid #0dcaf0;  
+     border-left: 4px solid #0dcaf0 !important;
+    border-right: 4px solid #0dcaf0 !important;  
+    transition: transform 0.5s ease-in-out;
 
 }
-
+.myexperiencecard:hover{
+  box-shadow: 0 0 10px #0dcaf0, 0 0 20px #0dcaf0;
+  /* transition: transform 0.5s ease-in-out; */
+  /* transition-delay: 0.5s; */
+  border-left: none !important;
+  border-right: none !important;
+  border-top:  6px solid #0dcaf0;
+  border-bottom: 6px solid #0dcaf0;
+  border-radius: 10px;
+}
 .text-indent {
   text-indent: 30px;
   line-height: 1.8;
