@@ -4,7 +4,7 @@ import '../style/About.css'
 function About() {
   return (
     <>
-    <section id='about'>
+    <section id='about' className='about-section'>
         
             <div className="container-fluid w-75 mt-5 mb-5 p-4 opacity-100 rounded-5 aboutdiv">
       <h2 className="text-info text-center text-decoration-underline mb-3">About Me</h2>
